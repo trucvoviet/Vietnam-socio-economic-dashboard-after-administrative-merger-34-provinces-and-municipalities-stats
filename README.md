@@ -140,6 +140,7 @@ This tutorial demonstrates creating a sophisticated, interactive economic and so
 
 #### Import Wikipedia Page 1 (Provincial Data)
 [Sáp nhập tỉnh, thành Việt Nam 2025](https://vi.wikipedia.org/wiki/S%C3%A1p_nh%E1%BA%ADp_t%E1%BB%89nh%2C_th%C3%A0nh_Vi%E1%BB%87t_Nam_2025)
+
 **Steps:**
 1. Home tab > Get Data > Web
 2. Paste Wikipedia URL (consolidation page)
@@ -147,22 +148,23 @@ This tutorial demonstrates creating a sophisticated, interactive economic and so
 4. Navigator window shows all tables from webpage
 
 **Select Tables:**
-- **Table 3**: Check box (consolidation details)
-- **Table 4**: Check box (provincial economic data)
+- **Table 2**: Check box (consolidation details)
+- **Table 3**: Check box (provincial economic data)
 - Click "Transform Data"
 
 **In Power Query:**
 
-**Rename Table 4:**
+**Rename Table 2:**
 1. Right-click "Table 4" in Queries pane
-2. Rename > "Province"
+2. Rename > "Province List"
 
 **Rename Table 3:**
 1. Right-click "Table 3"
-2. Rename > "Consolidation List"
+2. Rename > "Provincial economic data"
 
 #### Import Wikipedia Page 2 (Regional Data)
 [List of regions of Vietnam](https://en.wikipedia.org/wiki/List_of_regions_of_Vietnam)
+
 **In Power Query (don't close):**
 1. New Source > Web
 2. Paste Wikipedia URL (regions page)
